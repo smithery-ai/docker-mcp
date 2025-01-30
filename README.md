@@ -3,7 +3,7 @@
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![smithery badge](https://smithery.ai/badge/docker-mcp)](https://smithery.ai/protocol/docker-mcp)
+[![smithery badge](https://smithery.ai/badge/docker-mcp)](https://smithery.ai/server/docker-mcp)
 
 A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI.
 
@@ -48,10 +48,10 @@ To try this in Claude Desktop app, add this to your claude config files:
 
 ### Installing via Smithery
 
-To install Docker MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/protocol/docker-mcp):
+To install Docker MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/docker-mcp):
 
 ```bash
-npx @smithery/cli install docker-mcp --client claude
+npx -y @smithery/cli install docker-mcp --client claude
 ```
 
 ### Prerequisites
